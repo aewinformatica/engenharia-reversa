@@ -35,5 +35,9 @@
 		<File Name="splash.h"/>
 		<File Name="resource.rc"/>
 		<File Name="resource.h"/>
+		<File Name="ThreadSafe.h"/>
+		<File Name="HookManager.h"/>
+		<File Name="CHookManager.cpp"/>
+		<File Name="StdAfx.h"/>
 	</Files>
 </Project>

@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout>
 	<Files>
-		<File Name="main.cpp" Top="No" Tabpos="1" TopLine="1">
-			<Cursor Line="11" Column="43"/>
+		<File Name="CHookManager.cpp" Top="No" Tabpos="1" TopLine="1">
+			<Cursor Line="3" Column="29"/>
+			<Selection Line="3" Column="1"/>
 		</File>
-		<File Name="main.h" Top="No" Tabpos="2" TopLine="1">
+		<File Name="StdAfx.h" Top="No" Tabpos="2" TopLine="32">
 			<Cursor Line="1" Column="1"/>
 		</File>
-		<File Name="resource.rc" Top="Yes" Tabpos="3" TopLine="1">
-			<Cursor Line="2" Column="25"/>
-		</File>
-		<File Name="splash.h" Top="No" Tabpos="4" TopLine="1">
-			<Cursor Line="1" Column="1"/>
-		</File>
-		<File Name="splash.cpp" Top="No" Tabpos="5" TopLine="1">
-			<Cursor Line="23" Column="54"/>
-			<Selection Line="23" Column="49"/>
+		<File Name="HookManager.h" Top="Yes" Tabpos="3" TopLine="1">
+			<Cursor Line="7" Column="1"/>
 		</File>
 	</Files>
 </Layout>
