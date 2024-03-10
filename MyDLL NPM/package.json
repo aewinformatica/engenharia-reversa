@@ -5,7 +5,7 @@
   "main": "main.cpp",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "g++ -shared -o Extensor.dll main.cpp"
+    "compile": "g++ -shared -o Extensor.dll Utils.cpp main.cpp"
   },
   "author": "Wagner G Jesus",
   "license": "ISC"

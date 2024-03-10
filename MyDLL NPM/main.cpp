@@ -1,4 +1,5 @@
 #include "main.h"
+#include "utils.h"
 
 #define DLL_EXPORT __declspec(dllexport)
 
@@ -31,6 +32,7 @@ void TitleReplaceHookThread(void *param)
         SetWindowText(g_HWND, "MEU TITULO DE FODAO DOS FODOES ENGENHARIA REVERSA NO NPM");
         break;
         }
+        
 	}
 }
 
@@ -39,9 +41,11 @@ extern "C" DLL_EXPORT BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason,
     switch (fdwReason)
     {
         case DLL_PROCESS_ATTACH:
-             HANDLE hThread;
-            hThread = (HANDLE)_beginthread(TitleReplaceHookThread, 0, NULL);
-            CloseHandle(hThread);
+            //  HANDLE hThread;
+            // hThread = (HANDLE)_beginthread(TitleReplaceHookThread, 0, NULL);
+            // CloseHandle(hThread);
+            // break;
+            // SetHook(0X08, 0x0040140B, (DWORD) TitleReplaceHookThread,0);
             break;
     }
     return TRUE;
